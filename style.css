@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+:root {
+  --h1FontSize: 3rem;
+  --h2FontSize: 2rem;
+  --mobh1FontSize: 1.5rem;
+}
+.main {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+}
+.nav > li {
+  padding: 0 1%;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.right-icons {
+  display: flex;
+  gap: 25px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.lighting {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(assets/hero_startframe__db11rsyn9dyu_large.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.lighting > img {
+  display: none;
+}
+.iphone16 {
+  width: 70%;
+  text-align: center;
+}
+.iphone16 > p {
+  font-size: var(--h2FontSize);
+  color: white;
+}
+.event {
+  width: 15%;
+  height: 60px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 420px) {
+  .links {
+    display: none;
+  }
+  .hidden {
+    display: inline;
+  }
+  .nav {
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+  }
+  .lighting {
+    width: 100%;
+    background-image: none;
+    height: 350px;
+  }
+  .lighting > img {
+    display: inline;
+    width: 100%;
+    height: auto;
+  }
+  .iphone16 {
+    width: 90%;
+    text-align: center;
+  }
+  .iphone16 > p {
+    font-size: var(--mobh1FontSize);
+    color: white;
+  }
+  .event {
+    width: 200px;
+  }
+}
