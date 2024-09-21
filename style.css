@@ -103,7 +103,6 @@ header {
 .btns-16 {
   position: absolute;
   width: 50%;
-  /* background-color: orange; */
   top: 80%;
   left: 40%;
   align-content: center;
@@ -169,13 +168,8 @@ header {
 }
 .watch-parent {
   width: 75%;
-  /* background-color: palegoldenrod; */
   margin: 0 auto;
-  margin-top: 5%;
-  /* position: absolute; */
-  /* text-align: center; */
-  /* left: 40%;
-  top: 10%; */
+  margin-top: 2.5%;
 }
 .series9 {
   font-size: var(--h1FontSize);
@@ -205,10 +199,9 @@ header {
   color: grey;
 }
 .btns-10 {
-  /* background-color: aqua; */
   position: absolute;
-  width: 45%;
-  top: 42.5%;
+  width: 50%;
+  top: 40%;
   left: 40%;
   align-content: center;
   margin-top: 20px;
@@ -292,6 +285,9 @@ header {
     height: 450px;
     background-image: url(assets/hero_apple_watch_series_10_announce_lte__erybd9d98zau_small.jpg);
   }
+  .watch-parent {
+    margin-top: 5%;
+  }
   .series9 {
     font-size: var(--h2FontSize);
   }
@@ -312,15 +308,15 @@ header {
   .btns-10 {
     width: 80%;
     top: 30%;
-    left: 20%;
+    left: 15%;
   }
   .btns-10 > button {
-    width: 35%;
+    width: 40%;
     height: 40px;
     border-radius: 20px;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .links {
     display: none;
   }
@@ -376,8 +372,8 @@ header {
   }
   .btns-16 {
     margin-top: 25px;
-    width: 80%;
-    left: 15%;
+    width: 50%;
+    left: 30%;
   }
 
   .btns-16 > button {
@@ -393,17 +389,11 @@ header {
   .preOrder {
     font-size: 14px;
   }
-  .btns-10 {
-    width: 80%;
-    left: 15%;
-  }
-  .btns-10 > button {
-    width: 40%;
-    height: 40px;
-    border-radius: 20px;
-  }
   .watch {
     height: 500px;
+  }
+  .watch-parent {
+    margin-top: 5%;
   }
   .series9 {
     left: 35%;
@@ -412,8 +402,8 @@ header {
     left: 30%;
   }
   .btns-10 {
-    width: 80%;
-    left: 15%;
+    width: 50%;
+    left: 30%;
     top: 40%;
   }
   .btns-10 > button {
@@ -432,5 +422,26 @@ header {
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 100;
+  }
+  .btns-10 {
+    width: 50%;
+    left: 30%;
+    top: 40%;
+  }
+  .btns-10 > button {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .btns-16 {
+    margin-top: 25px;
+    width: 50%;
+    left: 30%;
+  }
+
+  .btns-16 > button {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
   }
 }
