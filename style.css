@@ -290,9 +290,7 @@ header {
   width: 100%;
   position: absolute;
   top: 65%;
-  /* left: 12.5%; */
   color: var(--bgColor);
-  /* background-color: orange; */
   text-align: center;
 }
 .airpods-4 > h1 {
@@ -301,6 +299,28 @@ header {
 .airpods-4 > p {
   font-weight: lighter;
   font-size: var(--mobh1FontSize);
+}
+#box-3 {
+  background-image: url(assets/promo_airpods_pro_2_avail__vkitqi3okwie_small_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.airpods-2 > h1 {
+  font-size: var(--h1FontSize);
+}
+.airpods-2 > p {
+  font-weight: lighter;
+  font-size: var(--mobh1FontSize);
+}
+.airpods-2 {
+  text-wrap: wrap;
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  color: var(--bgColor);
+  text-align: center;
 }
 @media screen and (max-width: 425px) {
   .links {
@@ -431,6 +451,9 @@ header {
   .airpods-4 > P {
     font-size: 1.1rem;
   }
+  .airpods-2 > p {
+    font-size: 1.1rem;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .links {
@@ -552,6 +575,12 @@ header {
   .airpods-4 > P {
     font-size: 1.1rem;
   }
+  .airpods-4 > P {
+    font-size: 1.1rem;
+  }
+  .airpods-2 > p {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -593,5 +622,11 @@ header {
   }
   .buy {
     width: 20%;
+  }
+  #box-1 {
+    background-image: url(assets/promo_apple_watch_ultra2_avail__dyawbjw9cowi_small_2x.jpg);
+  }
+  .airpods-2 > p {
+    font-size: 1.1rem;
   }
 }
