@@ -27,6 +27,8 @@ nav {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.927);
   position: fixed;
+  left: 0;
+  top: 0;
   z-index: 1;
   &:hover {
     cursor: pointer;
@@ -68,7 +70,6 @@ header {
 
 .iphone16Pro {
   width: 100%;
-  margin-top: 0;
   top: 0%;
   height: 750px;
   background-image: url(assets/hero_iphone16pro_preorder__bw14fpo72niu_medium_2x.jpg);
@@ -315,13 +316,35 @@ header {
   font-size: var(--mobh1FontSize);
 }
 .airpods-2 {
-  text-wrap: wrap;
   width: 100%;
   position: absolute;
   top: 65%;
   color: var(--bgColor);
   text-align: center;
 }
+
+#box-4 {
+  background-image: url(assets/promo_airpodsmax_announce__2srayzjz3iay_small_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.headphones > h1 {
+  font-size: var(--h1FontSize);
+}
+.headphones > p {
+  font-weight: lighter;
+  font-size: var(--mobh1FontSize);
+}
+.headphones {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  color: black;
+  text-align: center;
+}
+
 @media screen and (max-width: 425px) {
   .links {
     display: none;
@@ -330,6 +353,7 @@ header {
     display: inline;
   }
   .nav {
+    z-index: 1;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
@@ -343,7 +367,7 @@ header {
     background-image: url(assets/iphone_16_pro__dbqs3s14emky_large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    /* z-index: 1; */
   }
   .iphone16 {
     height: 450px;
@@ -454,6 +478,9 @@ header {
   .airpods-2 > p {
     font-size: 1.1rem;
   }
+  .headphones > p {
+    font-size: 1.1rem;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .links {
@@ -475,7 +502,7 @@ header {
     background-image: url(assets/iphone_16_pro__dbqs3s14emky_large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    /* z-index: 1; */
   }
   .iphone16 {
     width: 100%;
@@ -625,6 +652,9 @@ header {
   }
   #box-1 {
     background-image: url(assets/promo_apple_watch_ultra2_avail__dyawbjw9cowi_small_2x.jpg);
+  }
+  .airpods-4 > p {
+    font-size: 1.1rem;
   }
   .airpods-2 > p {
     font-size: 1.1rem;

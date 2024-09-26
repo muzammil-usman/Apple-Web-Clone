@@ -7,7 +7,7 @@ function percentage(a, b) {
 var StudentPercentage = percentage(obtainedMarks, 550);
 
 function studentGrades() {
-  if (StudentPercentage >= 80 && StudentPercentage < 100) {
+  if (StudentPercentage >= 80 && StudentPercentage <= 100) {
     document.write("Congrats! For Grade A");
   } else if (StudentPercentage >= 60 && StudentPercentage < 80) {
     document.write("Congrats! For Grade B");
